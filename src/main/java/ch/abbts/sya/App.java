@@ -3,6 +3,8 @@
  */
 package ch.abbts.sya;
 
+import ch.abbts.sya.service.Orakel;
+
 import javax.xml.ws.Endpoint;
 
 public class App {
@@ -10,7 +12,8 @@ public class App {
     public static void main(String[] args) {
 
         System.out.println("Starting Endpoint");
-        Endpoint.publish("http://10.0.1.10:8080/orakel/getSpell", new Orakel());
+        Endpoint.publish("http://localhost:8080/orakel", new Orakel());
+        //Endpoint.publish("http://10.0.1.10:8080/orakel/getSpell", new Orakel());
         System.out.println("Done!\nWaiting for connection...");
 
     }

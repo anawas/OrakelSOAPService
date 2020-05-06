@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ch.abbts.sya;
+package ch.abbts.sya.service;
 
 /**
  *
@@ -11,4 +11,6 @@ package ch.abbts.sya;
  */
 public interface OrakelIf {
     public String getSpell();
+    public String getNumber();
+    public String getSymbol();
 }

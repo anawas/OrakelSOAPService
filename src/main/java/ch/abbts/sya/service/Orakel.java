@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ch.abbts.sya;
+package ch.abbts.sya.service;
 import javax.jws.WebService;
 
 /**
@@ -17,5 +17,15 @@ public class Orakel implements OrakelIf {
     public String getSpell ()
     {
         return Sayings.getSpell();
+    }
+
+    @Override
+    public String getNumber() {
+        return LuckyNumber.getNumber();
+    }
+
+    @Override
+    public String getSymbol() {
+        return LuckySymbol.getSymbol();
     }
 }

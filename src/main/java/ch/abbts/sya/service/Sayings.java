@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ch.abbts.sya;
+package ch.abbts.sya.service;
 
 import java.util.Random;
 
