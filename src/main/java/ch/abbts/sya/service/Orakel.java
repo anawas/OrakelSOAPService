@@ -20,12 +20,12 @@ public class Orakel implements OrakelIf {
     }
 
     @Override
-    public String getNumber() {
+    public String getLuckyNumber() {
         return LuckyNumber.getNumber();
     }
 
     @Override
-    public String getSymbol() {
+    public String getLuckySymbol() {
         return LuckySymbol.getSymbol();
     }
 }

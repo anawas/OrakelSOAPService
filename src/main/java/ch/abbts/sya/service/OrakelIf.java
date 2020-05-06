@@ -11,6 +11,6 @@ package ch.abbts.sya.service;
  */
 public interface OrakelIf {
     public String getSpell();
-    public String getNumber();
-    public String getSymbol();
+    public String getLuckyNumber();
+    public String getLuckySymbol();
 }
